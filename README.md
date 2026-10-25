@@ -17,7 +17,7 @@ no analytics, and nothing to pay for.
 2. Open the link above on your iPhone and tap **Accept**, then **Install**.
 3. Builds expire after 90 days; TestFlight will prompt you when a new one is available.
 
-Current build: **0.4.14 (82)**. Requires iOS 18 or later.
+Current build: **0.4.14 (82)**. Requires iOS 18 or later. Screenshots below are from build 82 (iPhone 17 Pro Max simulator; the Live Camera shot is from an iPhone 15 Pro Max).
 
 ## What it does
 
