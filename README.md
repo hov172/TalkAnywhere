@@ -11,7 +11,7 @@ no analytics, and nothing to pay for.
 
 ## Join the beta on TestFlight
 
-**[Join the Talk Anywhere beta](TESTFLIGHT_PUBLIC_LINK)**
+**[Join the Talk Anywhere beta](https://testflight.apple.com/join/ECzs4YdM)**
 
 1. Install [TestFlight](https://apps.apple.com/app/testflight/id899247664) from the App Store.
 2. Open the link above on your iPhone and tap **Accept**, then **Install**.
