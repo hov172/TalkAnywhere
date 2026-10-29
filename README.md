@@ -17,7 +17,15 @@ no analytics, and nothing to pay for.
 2. Open the link above on your iPhone and tap **Accept**, then **Install**.
 3. Builds expire after 90 days; TestFlight will prompt you when a new one is available.
 
-Current build: **0.4.14 (82)**. Requires iOS 18 or later. Screenshots below are from build 82 (iPhone 17 Pro Max simulator; the Live Camera shot is from an iPhone 15 Pro Max).
+Current build: **0.4.16 (84)**. Requires iOS 18 or later. Screenshots below are from build 82 (iPhone 17 Pro Max simulator; the Live Camera shot is from an iPhone 15 Pro Max).
+
+### What's new in 0.4.16
+
+- **Live Camera is faster.** The first text you point at no longer waits for the recognizer and the translator to warm up; both are ready before the preview starts. Text recognition backs off while translations are running so the two stop slowing each other down, and blocks that only flash past during a pan are no longer sent for translation.
+- **Live Camera boxes stay on the text.** Boxes follow a slow pan instead of trailing it, and the translation of small, tightly spaced print no longer overlaps the line below.
+- **Language picker** shows full language names ("English — United Kingdom") instead of cutting them off.
+
+Previous: 0.4.14 made offline translation about twice as fast with the key/value-cached M2M-100 pack and stopped Live conversation turns from ending while someone is still speaking.
 
 ## What it does
 
