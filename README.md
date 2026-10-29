@@ -17,15 +17,20 @@ no analytics, and nothing to pay for.
 2. Open the link above on your iPhone and tap **Accept**, then **Install**.
 3. Builds expire after 90 days; TestFlight will prompt you when a new one is available.
 
-Current build: **0.4.16 (84)**. Requires iOS 18 or later. Screenshots below are from build 82 (iPhone 17 Pro Max simulator; the Live Camera shot is from an iPhone 15 Pro Max).
+Current build: **0.4.17 (85)**. Requires iOS 18 or later. Screenshots below are from build 82 (iPhone 17 Pro Max simulator; the Live Camera shot is from an iPhone 15 Pro Max).
+
+### What's new in 0.4.17
+
+- **Conversation stays smooth while people talk.** The transcript no longer redraws every turn each time a partial transcript arrives, and the first press of a session arms faster.
+- **Live is more careful with the microphone.** After a phone call that iOS ends with "don't resume", Live parks as Paused with the mic released instead of keeping it open. Pressing Stop while your earbuds disconnect keeps the sentence you were saying, and playback stops when you leave the screen.
+- **Changing languages mid-conversation** no longer risks a dead first press, and shows the "no voice input" notice for the new pair when it applies.
+- **The earbud-microphone suggestion** now appears in Tap-to-Talk when it should.
 
 ### What's new in 0.4.16
 
 - **Live Camera is faster.** The first text you point at no longer waits for the recognizer and the translator to warm up; both are ready before the preview starts. Text recognition backs off while translations are running so the two stop slowing each other down, and blocks that only flash past during a pan are no longer sent for translation.
 - **Live Camera boxes stay on the text.** Boxes follow a slow pan instead of trailing it, and the translation of small, tightly spaced print no longer overlaps the line below.
 - **Language picker** shows full language names ("English — United Kingdom") instead of cutting them off.
-
-Previous: 0.4.14 made offline translation about twice as fast with the key/value-cached M2M-100 pack and stopped Live conversation turns from ending while someone is still speaking.
 
 ## What it does
 
