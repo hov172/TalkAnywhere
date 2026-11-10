@@ -1,4 +1,4 @@
-# Talk Anywhere
+# <img src="images/app-icon.png" width="48" align="top" alt=""> Talk Anywhere
 
 Talk Anywhere is an iOS translator that runs on your phone. It speaks, types,
 reads text through the camera, and turns ordinary Bluetooth earbuds into
